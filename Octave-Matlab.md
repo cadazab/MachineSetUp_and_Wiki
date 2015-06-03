@@ -35,7 +35,7 @@ M = eye(3) %return 3x3 identity matrix
 M = magig(3) %Return 3x3 magic square matrix
 ```
 
-###Matrix Values
+###1.Matrix Values
 ```matlab
 M(2:6) %Return the values from the position 2, to the position 6
 M(2,3) %Return the value in the second row, third column
@@ -45,7 +45,7 @@ M([1 3],:) %Returns every element along the rows 1 and 3
 M(:,[1 3]) %Returns every element along the columns 1 and 3
 ```
 
-####Asign Values Into the Matrix
+  ####1.Asign Values Into the Matrix
 ```matlab
 M(2,3) = 3
 M(1,:) = [1 2 3]
