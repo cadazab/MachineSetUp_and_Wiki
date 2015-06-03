@@ -1,6 +1,6 @@
 # Basic Comands
 
-###Help with a Matlab/Octave command
+###Help 
 ```matlab
 help Command  
 ```
@@ -28,24 +28,24 @@ format short %Show 4 Decimals
 ```matlab
 M = [1 2; 3 4; 5 6] 
 M = 1:0.2:2  % Define Matrix with initial, increment and end values; [1 1.2 1.4 1.6 1.8 1.9 2]
-M = ones(2,3) %return 2x3 Matrix wih all the values equal to 1
-M = rand(2,3) %return 2x3 Matrix wih random values
-M = randn(1,3) %return 1x3 Matrix with normally distributed random numbers
-M = eye(3) %return 3x3 identity matrix
-M = magig(3) %Return 3x3 magic square matrix
+M = ones(2,3) %Returns 2x3 Matrix wih all the values equal to 1
+M = rand(2,3) %Returns 2x3 Matrix wih random values
+M = randn(1,3) %Returns 1x3 Matrix with normally distributed random numbers
+M = eye(3) %Returns 3x3 identity matrix
+M = magic(3) %Returns 3x3 magic square matrix
 ```
 
 ###Matrix Values
 ```matlab
-M(2:6) %Return the values from the position 2, to the position 6
-M(2,3) %Return the value in the second row, third column
+M(2:6) %Returns the values from the position 2, to the position 6
+M(2,3) %Returns the value in the second row, third column
 M(2,:) %Returns every element along the second row
 M(:,2) %Returns every element along the second 
 M([1 3],:) %Returns every element along the rows 1 and 3
 M(:,[1 3]) %Returns every element along the columns 1 and 3
 ```
 
-####Asign Values Into the Matrix
+###Asign Values 
 ```matlab
 M(2,3) = 3
 M(1,:) = [1 2 3]
@@ -128,5 +128,8 @@ import::csv('Datafile.csv', ';') %load a matrix from a csv file separated by ;
 save File.mat M %Save the matrix M into the file 
 save File.txt M -ascii %Save to text file
 ```
+
+
+
 
 
