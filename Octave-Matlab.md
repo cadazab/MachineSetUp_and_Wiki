@@ -43,7 +43,7 @@ M(:,2) %Returns every element along the second
 M([1 3],:) %Returns every element along the rows 1 and 3
 M(:,[1 3]) %Returns every element along the columns 1 and 3
 ```
- ####Asign Values Into the Matrix
+####Asign Values Into the Matrix
 ```matlab
 M(2,3) = 3
 M(1,:) = [1 2 3]
@@ -51,8 +51,6 @@ M(:,2) = [10; 11; 12]
 M = [M,[7; 8; 9;]] %Add a new Column
 M = [M; 10 11 12] %Add a new row
 ```
-
-##
 
 ###Matrix Properties
 ```matlab
