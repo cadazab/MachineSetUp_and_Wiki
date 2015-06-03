@@ -81,7 +81,7 @@ A' %Transpose
 pinv(M) %Inverse of the matrix
 ```
 
-###Scalar Operations Examples
+Scalar Operations Examples
 ```matlab
 M+5
 M.*5
@@ -91,7 +91,7 @@ M.^5
 -M
 ```
 
-###Function Operations examples
+Function Operations examples
 ```matlab
 log(M)  
 exp(M)
@@ -179,6 +179,58 @@ Gray scale
 M = magic(5);
 imagesc(M), colorbar, colormap gray;
 ```
+
+###Control Statements
+
+####for
+```matlab
+for i=1:10,
+  disp(i);
+end;
+```
+
+the interval can also be taken from a matrix:
+```matlab
+in = 1:10;
+for i=in,
+  disp(in);
+end;
+```
+
+####While
+```matlab
+i = 1;
+while i<=5,
+  disp(i);
+  i=i+1;
+end;
+```
+
+####if
+```matlab
+i = 2;
+if i==1,
+  disp('the value is 1');
+elseif i==2,
+  disp('the value is 2');
+else,
+  disp('the value is not 1 or 2');
+end;
+```
+
+###Functions
+```matlab
+function y = Square(x):
+y=x^2;
+```
+
+Wit multiple variables and outputs
+```matlab
+function [y1,y2] = SquareAndCube(x1,x2):
+y1=x1^2;
+y2=x2^3;
+```
+
 
 
 
