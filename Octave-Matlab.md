@@ -218,7 +218,7 @@ else,
 end;
 ```
 
-###Functions
+###Define Functions
 ```matlab
 function y = Square(x):
 y=x^2;
