@@ -129,6 +129,59 @@ save File.mat M %Save the matrix M into the file
 save File.txt M -ascii %Save to text file
 ```
 
+###2D Plot Example
+```matlab
+t=[0:0.01:1];
+y1 = sin(2*pi*4*t);
+y2 = cos(2*pi*4*t);
+plot(t,y1);
+hold on;   %allows to draw the next plot in the same canvas
+plot(t,y2,'r'); %The last parameter is the color
+xlabel('Label1');
+ylabel('Label2');
+legend('sin','cos');
+title('Title');
+axis([0.5 1 -1 1])  %Change the axis range
+print -dpng 'MyPlot.png' %Save the Plot
+```
+To close the plot:
+```matlab
+close
+```
+
+Several plots
+```matlab
+figure(1); plot(t,y1);
+figure(2); plot(t,y2);
+```
+
+Several plots in the same canvas
+```matlab
+subplot(1,2,1); %Divides the canvas in a 1x2 grid. The last parameter indicates that you will work in the first subplot
+plot(t,y1);
+subplot(1,2,2);
+plot(t,y2);
+```
+
+Clean the canvas:
+```matlab
+clf;
+```
+
+###Colormap example
+```matlab
+M = magic(5);
+imagesc(M), colorbar;
+```
+
+Gray scale
+```matlab
+M = magic(5);
+imagesc(M), colorbar, colormap gray;
+```
+
+
+
 
 
 
