@@ -84,10 +84,10 @@ dot(A,B) %Dot Product
 Scalar Operations Examples
 ```matlab
 M+5
-M.*5
-M./5
-5./M
-M.^5
+M*5
+M/5
+5/M
+M.^5 % M^5 = M*M*M*M*M (Matrix Product), M.^5 take each value of the matrix M(i,j) = M(i,j)^5 
 -M
 A.*B % M(i,j) = A(i,j) * B(i,j)
 ```
