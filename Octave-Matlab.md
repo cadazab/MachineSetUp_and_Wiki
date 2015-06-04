@@ -76,9 +76,9 @@ find (V > 3) %Find elements in the vector bigger than 3
 A+B
 A-B
 A*B %Matix product
-A.*B %Dot product
 A' %Transpose
 pinv(M) %Inverse of the matrix
+dot(A,B) %Dot Product
 ```
 
 Scalar Operations Examples
@@ -89,6 +89,7 @@ M./5
 5./M
 M.^5
 -M
+A.*B % M(i,j) = A(i,j) * B(i,j)
 ```
 
 Function Operations examples
