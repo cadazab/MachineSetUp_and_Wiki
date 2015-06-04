@@ -40,7 +40,7 @@ M = magic(3) %Returns 3x3 magic square matrix
 M(2:6) %Returns the values from the position 2, to the position 6
 M(2,3) %Returns the value in the second row, third column
 M(2,:) %Returns every element along the second row
-M(:,2) %Returns every element along the second 
+M(:,2) %Returns every element along the second column
 M([1 3],:) %Returns every element along the rows 1 and 3
 M(:,[1 3]) %Returns every element along the columns 1 and 3
 ```
