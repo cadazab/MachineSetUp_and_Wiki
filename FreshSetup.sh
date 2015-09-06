@@ -19,7 +19,7 @@ apt-get install -y build-essential
 sudo apt-get install -y octave gnuplot
 
 #Atom
-sudo apt-get install atom
+sudo apt-get install -y atom
 
 
 #github pasword caching
