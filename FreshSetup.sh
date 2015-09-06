@@ -18,13 +18,10 @@ apt-get install -y build-essential
 sudo apt-get install -y octave gnuplot
 
 #Atom
-git clone https://github.com/atom/atom
-cd atom
-git fetch -p
-git checkout $(git describe --tags `git rev-list --tags --max-count=1`)
-script/build
-sudo script/grunt install
-cd ..
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
+
 
 #github pasword caching
 git config --global credential.helper cache #Set git to use the credential memory cache
