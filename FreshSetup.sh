@@ -4,11 +4,11 @@ sudo apt-get -y update
 sudo apt-get -y upgrade
 
 #GUI
-sudo apt-get install -y ubuntu-dektop
-sudo apt-get install -y xfce4 xfce4-goodies
+sudo apt-get intall -y ubuntu-desktop
+sudo apt-get install -y gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
 
 #VNC
-sudo apt-get install -y vnc4server
+sudo apt-get isntall -y tightvncserver
 
 #Node
 curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
