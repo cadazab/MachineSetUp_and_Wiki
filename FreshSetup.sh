@@ -1,14 +1,14 @@
 #!/bin/bash
-sudo add-apt-repository ppa:webupd8team/atom
+#sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
 #GUI
-sudo apt-get install -y ubuntu-desktop
-sudo apt-get install -y gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+#sudo apt-get install -y ubuntu-desktop
+#sudo apt-get install -y gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
 
 #VNC
-sudo apt-get install -y tightvncserver
+#sudo apt-get install -y tightvncserver
 
 #Node
 curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
@@ -19,8 +19,15 @@ apt-get install -y build-essential
 sudo apt-get install -y octave gnuplot
 
 #Atom
-sudo apt-get install -y atom
+#sudo apt-get install -y atom
 
+#ipython
+sudo apt-get install -y libzmq-dev
+sudo apt-get install -y python-dev
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+rm get-pip.py
+sudo pip install "ipython[notebook]"
 
 #github pasword caching
 git config --global credential.helper cache #Set git to use the credential memory cache
