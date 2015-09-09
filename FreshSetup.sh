@@ -29,6 +29,11 @@ sudo python get-pip.py
 rm get-pip.py
 sudo pip install "ipython[notebook]"
 
+#oh-my-zsh
+sudo apt-get install -y zsh
+sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo chsh -s /bin/zsh vagrant
+
 #github pasword caching
 git config --global credential.helper cache #Set git to use the credential memory cache
 git config --global credential.helper 'cache --timeout=3600' #Set the cache to timeout after 1 hour (setting is in seconds)
