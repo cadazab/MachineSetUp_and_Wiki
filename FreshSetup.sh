@@ -21,6 +21,9 @@ sudo apt-get install -y octave gnuplot
 #Atom
 #sudo apt-get install -y atom
 
+#Chromium
+sudo apt-get install -y chromium-browser
+
 #ipython
 sudo apt-get install -y libzmq-dev
 sudo apt-get install -y python-dev
