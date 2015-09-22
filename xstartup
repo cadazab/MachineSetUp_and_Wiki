@@ -6,3 +6,4 @@ vncconfig -iconic &
 gnome-session &
 gnome-panel &
 metacity &
+nautilus &
