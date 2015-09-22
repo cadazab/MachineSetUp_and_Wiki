@@ -2,8 +2,10 @@
 
 [ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
 Xvfb :1 -ac -screen 0 1024x768x32 &
-vncconfig -iconic &
 gnome-session &
-gnome-panel &
-metacity &
 nautilus &
+metacity &
+gnome-panel &
+vncconfig -iconic &
+
+
