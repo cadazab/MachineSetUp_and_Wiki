@@ -37,7 +37,6 @@ sudo pip install "ipython[notebook]"
 #oh-my-zsh
 sudo apt-get install -y zsh
 sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sudo chsh -s /bin/zsh vagrant
 
 #github pasword caching
 git config --global credential.helper cache #Set git to use the credential memory cache
