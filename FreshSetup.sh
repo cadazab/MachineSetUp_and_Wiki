@@ -20,6 +20,8 @@ sudo apt-get install -y vnc4server
 
 #Octave
 sudo apt-get install -y octave gnuplot
+touch .octaverc
+echo "graphics_toolkit('gnuplot')" > .octaverc
 
 #Atom
 #sudo apt-get install -y atom
