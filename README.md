@@ -7,6 +7,8 @@ Here you can find the contents of the course Machine Learning, including a wiki 
 ```bash
 sudo apt-get -y install git-core
 git clone https://github.com/cadazab/machine-learning
+cd machine-learning
+sh FreshSetup.sh
 ```
 
 ###Configure Oh My Zsh
