@@ -5,7 +5,7 @@ sudo apt-get -y update
 
 #GUI
 sudo apt-get install -y ubuntu-desktop --no-install-recommends
-sudo apt-get install -y gnome-session gnome-panel metacity nautilus gnome-terminal
+sudo apt-get install -y gnome-session gnome-panel metacity gnome-terminal
 
 #VNC
 sudo apt-get install -y vnc4server
