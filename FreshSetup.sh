@@ -2,13 +2,15 @@
 #sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get -y update
 sudo apt-get -y upgrade
+sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 
 #GUI
 #sudo apt-get install -y ubuntu-desktop
-#sudo apt-get install -y gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+sudo apt-get install -y gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
 
 #VNC
 #sudo apt-get install -y tightvncserver
+sudo apt-get install -y vnc4server
 
 #Node
 curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
@@ -20,6 +22,9 @@ sudo apt-get install -y octave gnuplot
 
 #Atom
 #sudo apt-get install -y atom
+
+#Sublime
+sudo apt-get install -y sublime-text
 
 #Chromium
 sudo apt-get install -y chromium-browser
