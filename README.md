@@ -10,3 +10,8 @@ git clone https://github.com/cadazab/machine-learning
 ###Configure Oh My Zsh
 sudo nano /etc/passwd
 Then search the ubuntu user and replace bash with zsh
+
+###Configure VNC
+nano ~/.vnc/xstartup
+And copy the content from xtartup
+
