@@ -9,6 +9,7 @@ sudo apt-get install -y gnome-session gnome-panel metacity nautilus gnome-termin
 
 #VNC
 sudo apt-get install -y vnc4server
+sudo apt-get install -y xvfb
 
 #Node
 curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
