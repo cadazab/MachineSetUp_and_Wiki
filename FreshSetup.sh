@@ -1,6 +1,7 @@
 #!/bin/bash
 #sudo apt-get -y upgrade
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+sudo apt-add-repository -y ppa:fish-shell/release-2
 sudo apt-get -y update
 
 #GUI
@@ -35,9 +36,18 @@ sudo python get-pip.py
 rm get-pip.py
 sudo pip install "ipython[notebook]"
 
+#fish
+sudo apt-get install fish
+
+#wahoo agnoster
+sudo curl -L git.io/wa | sh
+wa get agnoster
+wa use agnoster
+
+
 #oh-my-zsh
-sudo apt-get install -y zsh
-sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+#sudo apt-get install -y zsh
+#sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 #github pasword caching
 git config --global credential.helper cache #Set git to use the credential memory cache
