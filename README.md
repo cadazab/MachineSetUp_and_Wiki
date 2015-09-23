@@ -16,11 +16,21 @@ try
 
 ```bash
 sudo chsh -s `which zsh`
+chsh -s /bin/zsh
 ```
+
+or
 
 ```bash
 sudo nano /etc/passwd
 ```
+
+then:
+
+```bash
+nano ~/.zshrc
+```
+select theme bira
 
 Then search the ubuntu user and replace bash with zsh
 
