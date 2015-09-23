@@ -40,17 +40,16 @@ sudo pip install "ipython[notebook]"
 sudo apt-get install -y fish
 
 #wahoo agnoster
-sudo curl -L git.io/wa | sh
-wa get agnoster
-wa use agnoster
-
-
-#oh-my-zsh
-#sudo apt-get install -y zsh
-#sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+#sudo curl -L git.io/wa | sh
+#wa get agnoster
+#wa use agnoster
 
 #github pasword caching
 git config --global credential.helper cache #Set git to use the credential memory cache
 git config --global credential.helper 'cache --timeout=3600' #Set the cache to timeout after 1 hour (setting is in seconds)
+
+#oh-my-zsh
+sudo apt-get install -y zsh
+sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
