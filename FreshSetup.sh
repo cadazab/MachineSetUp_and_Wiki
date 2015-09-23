@@ -37,7 +37,7 @@ rm get-pip.py
 sudo pip install "ipython[notebook]"
 
 #fish
-sudo apt-get install -y fish
+#sudo apt-get install -y fish
 
 #wahoo agnoster
 #sudo curl -L git.io/wa | sh
