@@ -12,9 +12,16 @@ sh FreshSetup.sh
 ```
 
 ###Configure Oh My Zsh
+try 
+
+```bash
+sudo chsh -s `which zsh`
+```
+
 ```bash
 sudo nano /etc/passwd
 ```
+
 Then search the ubuntu user and replace bash with zsh
 
 ###Configure VNC
