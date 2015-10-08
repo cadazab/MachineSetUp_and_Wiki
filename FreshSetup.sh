@@ -1,16 +1,16 @@
 #!/bin/bash
-#sudo apt-get -y upgrade
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 sudo apt-add-repository -y ppa:fish-shell/release-2
 sudo apt-get -y update
+sudo apt-get -y upgrade
 
 #GUI
-#sudo apt-get install -y ubuntu-desktop --no-install-recommends
-#sudo apt-get install -y  metacity nautilus gnome-session gnome-panel gnome-terminal
+sudo apt-get install -y ubuntu-desktop --no-install-recommends
+sudo apt-get install -y  metacity nautilus gnome-session gnome-panel gnome-terminal
 
 #VNC
-#sudo apt-get install -y vnc4server
-#sudo apt-get install -y xvfb
+sudo apt-get install -y vnc4server
+sudo apt-get install -y xvfb
 
 #Node
 curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
