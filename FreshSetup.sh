@@ -1,6 +1,8 @@
 #!/bin/bash
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 sudo apt-add-repository -y ppa:fish-shell/release-2
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
@@ -16,6 +18,9 @@ sudo apt-get install -y xvfb
 curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
 sudo apt-get install -y nodejs
 apt-get install -y build-essential
+
+#MongoDB
+sudo apt-get install -y mongodb-org
 
 #Octave
 sudo apt-get install -y octave gnuplot
