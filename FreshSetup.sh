@@ -1,18 +1,16 @@
 #!/bin/bash
-sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
-sudo apt-add-repository -y ppa:fish-shell/release-2
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
 #GUI
-sudo apt-get install -y ubuntu-desktop --no-install-recommends
-sudo apt-get install -y  metacity nautilus gnome-session gnome-panel gnome-terminal
+#sudo apt-get install -y ubuntu-desktop --no-install-recommends
+#sudo apt-get install -y  metacity nautilus gnome-session gnome-panel gnome-terminal
 
 #VNC
-sudo apt-get install -y vnc4server
-sudo apt-get install -y xvfb
+#sudo apt-get install -y vnc4server
+#sudo apt-get install -y xvfb
 
 #Node
 curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
@@ -28,10 +26,10 @@ touch .octaverc
 echo "graphics_toolkit('gnuplot')" > .octaverc
 
 #Sublime
-sudo apt-get install -y sublime-text
+#sudo apt-get install -y sublime-text
 
 #Chromium
-sudo apt-get install -y chromium-browser
+#sudo apt-get install -y chromium-browser
 
 #ipython
 sudo apt-get install -y libzmq-dev
@@ -39,15 +37,7 @@ sudo apt-get install -y python-dev
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 rm get-pip.py
-sudo pip install "ipython[notebook]"
-
-#fish
-#sudo apt-get install -y fish
-
-#wahoo agnoster
-#sudo curl -L git.io/wa | sh
-#wa get agnoster
-#wa use agnoster
+sudo pip install ipython
 
 #github pasword caching
 git config --global credential.helper cache #Set git to use the credential memory cache
@@ -55,11 +45,10 @@ git config --global credential.helper 'cache --timeout=3600' #Set the cache to t
 
 #oh-my-zsh
 sudo apt-get install -y zsh
-zsh
-git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-setopt EXTENDED_GLOB
-for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-done
-sudo chsh -s /bin/zsh
-exit
+sudo sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+wget http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
+mv bullet-train.zsh-theme /home/vagrant/.oh-my-zsh/themes/bullet-train.zsh-theme
+
+
+
+
