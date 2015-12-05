@@ -40,3 +40,8 @@ nano ~/.vnc/xstartup
 ```
 And copy the content from xtartup
 
+###Run mongo in VM
+```bash
+export LC_ALL=C
+mongo 
+```
