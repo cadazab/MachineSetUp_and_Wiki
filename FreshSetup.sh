@@ -16,7 +16,8 @@ sudo apt-get install -y git
 #sudo apt-get install -y xvfb
 
 #Node
-
+curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
 #MongoDB
 #sudo apt-get install -y mongodb-org
