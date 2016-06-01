@@ -16,9 +16,7 @@ sudo apt-get install -y git
 #sudo apt-get install -y xvfb
 
 #Node
-curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
-sudo apt-get install -y nodejs
-sudo apt-get install -y build-essential
+
 
 #MongoDB
 #sudo apt-get install -y mongodb-org
@@ -26,8 +24,6 @@ sudo apt-get install -y build-essential
 
 #Octave
 sudo apt-get install -y octave gnuplot
-touch .octaverc
-echo "graphics_toolkit('gnuplot')" > .octaverc
 
 #Sublime
 #sudo apt-get install -y sublime-text
@@ -36,8 +32,6 @@ echo "graphics_toolkit('gnuplot')" > .octaverc
 #sudo apt-get install -y chromium-browser
 
 #ipython
-sudo apt-get install -y libzmq-dev
-sudo apt-get install -y python-dev
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 rm get-pip.py
@@ -45,8 +39,6 @@ sudo pip install ipython
 
 
 #github pasword caching
-git config --global credential.helper cache #Set git to use the credential memory cache
-git config --global credential.helper 'cache --timeout=3600' #Set the cache to timeout after 1 hour (setting is in seconds)
 
 #oh-my-zsh
 sudo apt-get install -y zsh
