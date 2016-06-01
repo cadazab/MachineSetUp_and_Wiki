@@ -50,7 +50,7 @@ git config --global credential.helper 'cache --timeout=3600' #Set the cache to t
 
 #oh-my-zsh
 sudo apt-get install -y zsh
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 mv zshrc.zsh-template ~/.zshrc
 sudo chsh -s /bin/zsh vagrant
 
