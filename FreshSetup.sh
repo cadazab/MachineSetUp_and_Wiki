@@ -50,12 +50,12 @@ git config --global credential.helper 'cache --timeout=3600' #Set the cache to t
 
 #oh-my-zsh
 sudo apt-get install -y zsh
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-mv zshrc.zsh-template ~/.zshrc
+sudo sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+sudo mv zshrc.zsh-template ~/.zshrc
 sudo chsh -s /bin/zsh vagrant
 
 #Bullet train oh my zsh-theme
 wget http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
-mv bullet-train.zsh-theme ~/.oh-my-zsh/themes/
+sudo mv bullet-train.zsh-theme ~/.oh-my-zsh/themes/
 
 
