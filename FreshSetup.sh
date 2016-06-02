@@ -44,11 +44,9 @@ sudo pip install ipython
 #oh-my-zsh
 sudo apt-get install -y zsh
 sudo sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-sudo mv zshrc.zsh-template ~/.zshrc
 sudo chsh -s /bin/zsh vagrant
 
 #Bullet train oh my zsh-theme
 wget http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
 sudo mv bullet-train.zsh-theme ~/.oh-my-zsh/themes/
-
-
+cat zshrc_bullet-train.txt > ~/.zshrc
