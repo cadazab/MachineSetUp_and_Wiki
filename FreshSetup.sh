@@ -41,12 +41,10 @@ sudo pip install ipython
 
 #github pasword caching
 
-#oh-my-zsh
+#Bullet train and ohmyzsh
 sudo apt-get install -y zsh
+sudo cat zshrc_bullet-train.txt > ~/.zshrc
 sudo sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-sudo chsh -s /bin/zsh vagrant
-
-#Bullet train oh my zsh-theme
 wget http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
 sudo mv bullet-train.zsh-theme ~/.oh-my-zsh/themes/
-cat zshrc_bullet-train.txt > ~/.zshrc
+sudo chsh -s /bin/zsh vagrant
