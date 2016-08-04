@@ -1,6 +1,4 @@
 #!/bin/bash
-#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
-#echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
@@ -20,11 +18,10 @@ curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 #MongoDB
-#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
-#echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
-#sudo apt-get update
-#sudo apt-get install -y mongodb-org
-
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
 
 #Octave
 sudo apt-get install -y octave gnuplot
@@ -41,12 +38,15 @@ sudo python get-pip.py
 rm get-pip.py
 sudo pip install ipython
 
+#RVM
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+\curl -sSL https://get.rvm.io | bash -s stable
 
-#github pasword caching
+#Ruby
+rvm install 2.3.1
+rvm use 2.3.1
 
-#Bullet train and ohmyzsh
-sudo apt-get install -y zsh
-sudo sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-wget http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
-sudo mv bullet-train.zsh-theme ~/.oh-my-zsh/themes/
-sudo chsh -s /bin/zsh vagrant
+#ohmyzsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo chsh -s /bin/zsh
+
