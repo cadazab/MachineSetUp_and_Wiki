@@ -47,6 +47,7 @@ rvm install 2.3.1
 rvm use 2.3.1
 
 #ohmyzsh
+sudo apt-get install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo chsh -s /bin/zsh
 
