@@ -45,6 +45,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 #Ruby
 rvm install 2.3.1
 rvm use 2.3.1
+gem install rails
 
 #ohmyzsh
 sudo apt-get install -y zsh
