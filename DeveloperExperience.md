@@ -92,6 +92,6 @@ Here comes my personal taste: As a programmer you have to manage different tasks
 
 Yes, yes!!,  I know, you also can configure multi-touch gestures in Linux, but I tried multiple times (I am a nerd and like to play at crashing linux OPs and raspberry pi’s), and you will never have the same smooth results as from the Mac trackpad. It is fast, intuitive, and lets you work on multiple tasks in a really fast and easy way. A multi-taskers dream. 
 
-The bottom line is, I would happily use Linux or Mac to program, but not windows, (At University, I and some other students used to chant: Oh sweet lord protect me from having to program in windows!!! ), but if I had the option, I would go for a Mac Laptop.
+The bottom line is, I would happily use Linux or Mac to program, but not windows, (At University, I and some other students used to chant: Oh sweet lord protect me from having to program in windows!!! ). If I have the possibility to work sometimes on a desktop, sometimes in other spaces, I would have Linux on the desktop computer with two monitors, and I would opt for a MacBook as a laptop. 
 
 
