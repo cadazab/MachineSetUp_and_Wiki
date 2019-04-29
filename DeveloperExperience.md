@@ -1,6 +1,6 @@
-# My Ideal Development Environment
+# A Good Development Environment
 
-I was asked to describe what it would be like for me, the perfect or ideal environment to do the noble activity of programming, so here's my description. It is my personal opinion, so please take it with a grain of salt.
+I was asked to describe what it would be like for me, the an ideal environment to do the noble activity of programming, so here's my description. It is my personal opinion, so please take it with a grain of salt.
 
 ## 1.	The Terminal
 You´d definitely have a nice, friendly and customizable terminal which contains UNIX/LINUX 
