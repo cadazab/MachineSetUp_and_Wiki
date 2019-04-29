@@ -72,13 +72,13 @@ While in a modern Unix/Linux terminal, the same procedure looks like:
 ssh user@server
 ```
 
-Im sorry, but that´s simplicity, and simplicity is beautifull (In your face Windows)
+Im sorry, but that´s simplicity, and simplicity is beautifull
 
 Besides that, windows has other problems:
 
 ![wu](/images/windowsUpdates.gif)
 
-So Windows is not the right operating system for programmers (I also think it is for no one, but this is just a personal opinion). Then we're left with Linux and Mac. Both have their advantages.
+So Windows is not the right operating system for programmers. Then we're left with Linux and Mac. Both have their advantages.
 
 On the Linux side, we have in the local machine the same system as in the remote servers used to develop, and you will spend some time configuring the machine at the terminal with Linux commands, and this is an opportunity to learn also how to configure and learn how the remote servers works. Nowadays the most popular Linux distributions like Ubuntu or Mint are fast and stable, and provide all the basic things needed to develop programs, plus they are open source, and the idea behind this, people around the world sharing ideas to develop a system for everyone, is really cool. 
 
