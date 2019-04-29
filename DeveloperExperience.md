@@ -1,3 +1,7 @@
+# My Ideal Development Environment
+
+I was asked to describe what it would be like for me, the perfect or ideal environment to do the noble activity of programming, so here's my description. It is my personal opinion, so please take it with a grain of salt.
+
 ## 1.	The Terminal
 You definitely might have a nice, friendly and customizable terminal which contains UNIX/LINUX 
 commands. Why is this so important? As a developer you will spend a lot of time doing the following 
@@ -15,7 +19,7 @@ you rather have something like this:
 
 ![Customization demo](https://github.com/apodkutin/agnoster-zsh-theme/raw/customize-prompt/agnoster_customization.gif)
 
-Than something like this old ugly monster……the windows terminal:
+Than something like this old ugly monster……   the windows terminal:
 
 ![cmd](https://media.giphy.com/media/cZ1zIh0UvPqUM/giphy.gif)
 
@@ -83,7 +87,7 @@ In the Mac side there are other benefits; it looks great, it is easy to use, you
 
 Here comes my personal taste: As a programmer you have to manage different tasks at the same time, normally you have the terminal, and then the editor, and the mail box, and Slack or Trello to see what you are supposed to do, plus a web browser to do some research (I love you StackOverflow). The best way to deal with this is using multiple Desktops. In booth, Linux and Mac, you have this feature, but Mac has one big advantage here:  Trackpad and multi-touch gestures!!
 
-![gestures](/images/MacGestures.gif =150x)
+![gestures](/images/MacGestures.gif)
 
 Yes, yes!!,  I know, you also can configure multi-touch gestures in Linux, but I tried multiple times (I am a nerd how like to play crashing linux OPs and raspberry pi’s), and you will never have the same smooth results from the Mac trackpad. It is fast, intuitive, and let you work in multiple tasks in a really fast and easy way.
 
