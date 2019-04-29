@@ -58,18 +58,35 @@ Ok, so you have a nice terminal and a good text editor, let’s write some progr
 
 ##4.	Operating Sytem
 All the good text editors are cross-plataform, which means they are compatible with all operating systems, but a good terminal, as I mentioned before, doesn't exist in windows. Even worse, if you want for example, access a remote machine through shh protocol, you have to use an ugly program called puty, which is an overkill program to achieve something that in a Unix/Linux terminal looks like this:
-Image
+
+![atom](/images/puty.gif)
 
 While in a modern Unix/Linux terminal, it looks like: 
-Code
+
+```
+ssh user@server
+```
+
+Im sorry, but thats is simplicity, and simplicity is beautifull (In your face Windows)
+
 Besides that, windows have other problems:
-Wupdates
-So Windows is not the right operating system for programmers (I also think it is for no one, but is just personal opinion). Then we're left with Linux and Mac. Both have its advantages.
+
+![atom](/images/windowsUpdates.gif)
+
+So Windows is not the right operating system for programmers (I also think it is for no one, but is just a personal opinion). Then we're left with Linux and Mac. Both have its advantages.
+
 In the Linux side, we have in the local machine the same system that in the remote servers used to develop, and you will spend some time configuring the machine in the terminal with Linux commands, and this is an opportunity to learn also how to configure and make the remote servers works. Nowadays the most popular Linux distributions like Ubuntu or Mint are fast and stable, and provide all the basic things needed to develop programs, plus there are open source, and the idea behind this, people around the world sharing ideas to develop a system for everyone is really cool. 
+
 In the Mac side there are other benefits; it looks great, it is easy to use, you don’t spend your precious time configuring the system because everything works out of the box, and install new applications, or doing anything is for dummies, so you can focus entirely and peacefully in your work, and all of the relevant programs use for develop are compatible with Mac, but Apple is a big company whose main objective is to make profit, and sometimes this has a dark side:
-https://www.bbc.com/news/technology-42508300
+
+[Apple apologises for slowing older iPhones down](https://www.bbc.com/news/technology-42508300)
+
 Here comes my personal taste: As a programmer you have to manage different tasks at the same time, normally you have the terminal, and then the editor, and the mail box, and Slack or Trello to see what you are supposed to do, plus a web browser to do some research (I love you StackOverflow). The best way to deal with this is using multiple Desktops. In booth, Linux and Mac, you have this feature, but Mac has one big advantage here:  Trackpad and multi-touch gestures!!
-Gestures
+
+![atom](/images/MacGestures.gif)
+
 Yes, yes!!,  I know, you also can configure multi-touch gestures in Linux, but I tried multiple times (I am a nerd how like to play crashing linux OPs and raspberry pi’s), and you will never have the same smooth results from the Mac trackpad. It is fast, intuitive, and let you work in multiple tasks in a really fast and easy way.
+
 The bottom line is, I would happily use Linux or Mac to program, but not windows, (At the university, I and some other students used to repeat: Oh sweet lord protect me from having to program in windows!!! ), but if I have the option, I will go for a Mac Laptop.
+
 
