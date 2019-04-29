@@ -61,7 +61,7 @@ It has all the mentioned fautures plus, Git and shh integration.
 ## 3.	Access
 Ok, so you have a nice terminal and a good text editor, let’s write some programs and change the world! But wait, not that fast, frustrations is about to starts and strike our good intentions hard in the face, because access to the machine where the data and files are stored is normally a complicated step. I am not a security or proxy expert, but I was asked to describe my ideal developer experience, and it would be like this: Start my computer and after a somehow authentication process (password, hash or .pem private key, put a fisical key in my computer, whatever) have acces from both, my terminal and my text editor to the remote data, that’s the dream. And better still, not just from my work station in my desk, also from my Laptop. Modern offices have open spaces and nice cafeterias, and sometimes is good for the productivity to change the atmosphere and go to a different place, open the laptop and start coding.
 
-##4.	Operating Sytem
+## 4.	Operating Sytem
 All the good text editors are cross-plataform, which means they are compatible with all operating systems, but a good terminal, as I mentioned before, doesn't exist in windows. Even worse, if you want for example, access a remote machine through shh protocol, you have to use an ugly program called puty, which is an overkill program to achieve something that in a Unix/Linux terminal looks like this:
 
 ![puty](/images/putty.png)
