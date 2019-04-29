@@ -29,7 +29,8 @@ important role in how we feel, and finally in our performance at work. This is t
 work in illuminated, clean and decorated spaces, or to live in cities with architectural intervention and parks, rather 
 than in generic concrete soviet blocks. Here you can see an article related to this topic:
 
-https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1150&context=icis2004
+[Toward the Study of Aesthetics in Information
+Technology](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1150&context=icis2004)
 
 And this really interesting video:
 
