@@ -64,7 +64,7 @@ Ok, so you have a nice terminal and a good text editor, let’s write some progr
 ##4.	Operating Sytem
 All the good text editors are cross-plataform, which means they are compatible with all operating systems, but a good terminal, as I mentioned before, doesn't exist in windows. Even worse, if you want for example, access a remote machine through shh protocol, you have to use an ugly program called puty, which is an overkill program to achieve something that in a Unix/Linux terminal looks like this:
 
-![puty](/images/puty.png)
+![puty](/images/putty.png)
 
 While in a modern Unix/Linux terminal, it looks like: 
 
