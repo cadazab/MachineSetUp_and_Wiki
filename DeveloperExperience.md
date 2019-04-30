@@ -52,7 +52,7 @@ In addition to the terminal, we, the developers and programmers, spend the rest 
 
 As I said, it is a matter of taste, and there are several text editors that have all these features, like: SublimeText, Vim, Visual Studio Code, but if you ask me for my favorite, it is Atom:
 
-![atom](https://github.com/cadazab/SetUp_and_Wiki/tree/master/images/atom.gif)
+![atom](/images/atom.gif)
 
 [Atom oficial site](https://atom.io/)
 
@@ -64,7 +64,7 @@ Ok, so you have a nice terminal and a good text editor, let’s write some progr
 ## 4.	Operating Sytem
 All the good text editors are cross-plataform, which means they are compatible with all operating systems, but a good terminal, as I mentioned before, doesn't exist in windows. Even worse, if you want for example, access a remote machine through shh protocol, you have to use an ugly program called puty, which is an overkill program to achieve something normally simple. putty in windows looks like:
 
-![puty](https://github.com/cadazab/SetUp_and_Wiki/tree/master/images/putty.png)
+![puty](/images/putty.png)
 
 While in a modern Unix/Linux terminal, the same procedure looks like: 
 
@@ -76,7 +76,7 @@ Im sorry, but that´s simplicity, and simplicity is beautifull
 
 Besides that, windows has other problems:
 
-![wu](https://github.com/cadazab/SetUp_and_Wiki/tree/master/images/windowsUpdates.gif)
+![wu](/images/windowsUpdates.gif)
 
 So Windows is not the right operating system for programmers. Then we're left with Linux and Mac. Both have their advantages.
 
@@ -88,7 +88,7 @@ On the Mac side there are other benefits; it looks great, it is easy to use, you
 
 Here comes my personal taste: As a programmer you have to manage different tasks at the same time, normally you have the terminal, and then the editor, and the mail box, and Slack or Trello to see what you are supposed to do, plus a web browser to do some research (I love you StackOverflow). The best way to deal with this is using multiple Desktops. In booth, Linux and Mac, you have this feature, but Mac has one big advantage here:  Trackpad and multi-touch gestures!!
 
-![gestures](https://github.com/cadazab/SetUp_and_Wiki/tree/master/images/MacGestures.gif)
+![gestures](/images/MacGestures.gif)
 
 Yes, yes!!,  I know, you also can configure multi-touch gestures in Linux, but I tried multiple times (I am a nerd and like to play at crashing linux OPs and raspberry pi’s), and you will never have the same smooth results as from the Mac trackpad. It is fast, intuitive, and lets you work on multiple tasks in a really fast and easy way. A multi-taskers dream. 
 
