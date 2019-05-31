@@ -45,3 +45,15 @@ And copy the content from xtartup
 export LC_ALL=C
 mongo 
 ```
+
+# Atom basick packages
+- minimap
+- emmet
+- linter
+- language-babel
+- linter-htmlhint
+- file-icons
+- pigments
+- ftp-remote-edit
+- atom-beautify
+
