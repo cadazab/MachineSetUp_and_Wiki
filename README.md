@@ -1,7 +1,7 @@
 # Fresh Ubuntu Machine Config
 
 
-##Fresh SetUp
+## Fresh SetUp
 
 ```bash
 sudo apt-get -y install git-core
@@ -10,7 +10,7 @@ cd machine-learning
 sh FreshSetup.sh
 ```
 
-###Configure Oh My Zsh
+### Configure Oh My Zsh
 try 
 
 ```bash
@@ -33,13 +33,13 @@ select theme bira
 
 Then search the ubuntu user and replace bash with zsh
 
-###Configure VNC
+### Configure VNC
 ```bash
 nano ~/.vnc/xstartup
 ```
 And copy the content from xtartup
 
-###Run mongo in VM
+### Run mongo in VM
 ```bash
 export LC_ALL=C
 mongo 
